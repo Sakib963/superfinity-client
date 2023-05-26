@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    background-image: url('../src/assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.09), rgb(0, 0, 0)), url('/src/assets/images/login_back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.register{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 1)), url('/src/assets/images/register-back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.error-page{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.565), rgba(0, 0, 0, 0.576)), url('/src/assets/images/error.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.add-bg{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.565), rgba(0, 0, 0, 0.576)), url('/src/assets/images/add-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.comic{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), url('/src/assets/images/comic-shop.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line{
+    background: linear-gradient(90deg, #F0141E 41.9%, rgba(240, 20, 30, 0) 97.68%);
+    border-radius: 5px;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.custom-input:disabled{
+  background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.active-link{
+  color: #F0141E;
+  text-decoration: underline;
+}
